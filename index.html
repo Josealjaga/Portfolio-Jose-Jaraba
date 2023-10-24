@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="maletin.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <title>Jose Alejandro Jaraba</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <img class="logo" src="foto.png" alt="foto">
+      <h2 class="logo-name">Jose A. Jaraba</h2>
+    </div>
+    <nav>
+      <div class="navbar">
+        <ul>
+          <li><a href="#aboutme">Sobre mi</a></li>
+          <li><a href="#myworks">Proyectos</a></li>
+          <li><a href="#contactme">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="nav-red">
+        <ul>
+          <a href=""><img class="redsoc" src="face.png" alt="facebook"></a>
+          <a href=""><img class="redsoc" src="insta.png" alt="instagram"></a>
+          <a href=""><img class="redsoc" src="link.png" alt="linkedin"></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section id="aboutme">
+      <div class="main-container">
+        <img class="aboutme-img" src="foto.png" alt="foto mia">
+        <div class="title-aboutme">
+          <h2 class="title-aboutme1">JOSE </h2>
+          <h2 class="title-aboutme2">ALEJANDRO </h2>
+          <h2 class="title-aboutme3">JARABA </h2>
+          <h2 class="title-aboutme4">GAVIRIA </h2>
+        </div>
+        <p class="text-aboutme">Ingeniero civil apasionado por la construcción. A lo largo de mi carrera, he trabajado
+          en proyectos desafiantes que han contribuido al desarrollo de comunidades. Mi inquietud por la programación me
+          lleva a
+          explorar nuevos horizontes. Además, soy un ávido amante del
+          entretenimiento, disfrutando de películas y series que amplían mi perspectiva, así como apasionado por el
+          fútbol,
+          siguiendo de cerca a mi equipo favorito. En mi tiempo libre, me sumerjo en el mundo de los videojuegos, donde
+          la
+          estrategia y la competencia me brindan emoción y diversión. Mi enfoque en la construcción y la tecnología se
+          combina con
+          mi amor por el entretenimiento para enriquecer mi vida cotidiana.</p>
+
+        <button class="btn-canvas" id="btn-canvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#canvasmenu"
+          aria-controls="offcanvasExample">
+          Biografia</button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="canvasmenu" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Mi biografia</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-center">
+            <aside>
+              <h2 class="mb-5">Jose Alejandro Jaraba Gaviria</h2>
+              <p>Nacido el 15 de noviembre de 1997 en Caucasia, Antioquia, es un ingeniero civil formado en la
+                Universidad Tecnológica de Bolívar. Su infancia se desarrolló en la cautivadora Cartagena, Bolívar,
+                donde encontró inspiración en la confluencia de la historia y la modernidad.</p>
+              <p>Jose Alejandro Jaraba
+                Gaviria se destacó como un estudiante apasionado y dedicado en su búsqueda de conocimiento y su deseo de
+                aplicar sus habilidades en la construcción de un futuro mejor. Su historia es un testimonio de cómo las
+                raíces pueden influir en el camino de uno, y cómo la educación y la determinación pueden moldear un
+                futuro lleno de logros en el campo de la ingeniería civil.</p>
+            </aside>
+          </div>
+        </div>
+    </section>
+    </div>
+    <section id="myworks">
+      <h2 class="title-works">MIS PROYECTOS</h2>
+      <div class="works-container">
+        <div class="card1">
+          <img class="logoemp1" src="logoemp1.png" alt="Logo empresa">
+          <h3 class="titlecard1">Copaques</h3>
+          <p class="textcard1">Diseñe pagina web para esta empresa para vender sus productos, mostrar detalle del
+            producto y su carrusel
+            de compras.</p>
+          <button class="btncard1">Ver codigo</button>
+        </div>
+        <div class="card2">
+          <img class="logoemp2" src="logoemp2.png" alt="Logo empresa">
+          <h3 class="titlecard2">Mec Rappi</h3>
+          <p class="textcard2">Diseñe pagina web de esta empresa para progamar citas con el mecanico con formularios
+            sencillos y rapidos.</p>
+          <button class="btncard2">Ver codigo</button>
+        </div>
+      </div>
+    </section>
+    <section id="contactme">
+      <h2 class="contactme-title">Contacto</h2>
+      <div class="container-contact">
+        <label for="name">Nombre completo:</label>
+        <input class="inputs" type="text" id="name" name="name">
+
+        <label for="number">Numero de celular:</label>
+        <input class="inputs" type="number" id="number" name="number">
+
+        <label for="email">Correo electronico:</label>
+        <input class="inputs" type="email" id="email" name="email">
+
+        <label for="coment">Comentario:</label>
+        <textarea class="input-coment" type="textarea" id="coment" name="coment"> </textarea>
+        <button class="btn-send" id="send">Enviar</button>
+
+      </div>
+
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-red">
+      <ul class="footer-red">
+        <a href=""><img class="redsoc" src="face.png" alt="facebook"> Facebook</a> <br>
+        <a href=""><img class="redsoc" src="insta.png" alt="instagram"> Instagram</a><br>
+        <a href=""><img class="redsoc" src="link.png" alt="linkedin"> Linkedin</a><br>
+      </ul>
+  </footer>
+
+</body>
+<script src="formulario.js"></script>
+
+</html>

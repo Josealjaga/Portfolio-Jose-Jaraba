@@ -1,0 +1,308 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+width: 100vw;
+height: 100vh;
+
+font-family: Arimo;
+}
+body > .header{
+width: 100%;
+height: 10%;
+display: flex;
+font-size: 17px;
+background-color: #0D0D0D;
+
+}
+.header > .logo-container{
+width : 40%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;    
+margin-left: 10px;
+margin-top: 5px;
+
+}
+.header > .logo-container > .logo{  
+width: 60px; 
+height: 60px;
+border-radius: 50%;
+margin-right: 16px;
+border: 2px solid;
+ }
+.header > .logo-container > .logo-name{
+font-size: 25px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+color: #F2F2F2;
+}
+.header > nav {
+display: flex;
+width: 60%;
+height: 100%;
+
+}
+.header > nav > .navbar{
+display: flex;
+}
+.header > nav > .nav-red{
+display: flex;
+margin-left: 400px;
+margin-top: 38px;
+
+}
+.navbar > ul{
+display: flex;
+width: 100%;
+margin-left: 48px;
+align-items: center;
+}
+.navbar > ul > li{ 
+margin-left: 32px;
+list-style: none;
+padding-top: 10px;
+text-decoration: none;
+}
+.navbar > ul > li > a{
+text-decoration: none;
+color: #F2F2F2;
+font-size: 25px;
+font-weight: 400;
+}
+
+.header > .nav-red > ul {
+display: flex;
+margin-left: 100px;
+}
+.redsoc {
+width: 26px;
+height: 26px;
+margin-right: 10px;
+}
+.redsoc:hover{
+width: 32px;
+height: 32px;
+border: 10px;
+border-radius:50%;
+background-color:#416AF0;
+}
+.navbar > ul > li > a:hover{
+border-radius:15%;
+background-color:#416AF0;
+}
+body > .main{
+width:100%;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+} 
+.main > #aboutme > .main-container{
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 150px;
+}
+body > .main > #aboutme {
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#3B1473;
+;
+
+}
+.main > #aboutme > .main-container > .title-aboutme{
+display: flex;
+justify-content: space-between;
+margin-right: 5px;
+font-size: 25px;
+color: #F2F2F2;
+margin-bottom: 30px;
+}
+.main > #aboutme > .main-container > .title-aboutme > .title-aboutme1{
+margin-right: 9px;
+color: rgb(255, 0, 0);
+
+}
+.main > #aboutme > .main-container > .title-aboutme > .title-aboutme2{
+margin-right: 9px;
+
+}
+.main > #aboutme > .main-container > .title-aboutme > .title-aboutme3{
+margin-right: 9px;
+color: rgb(255, 0, 0);
+}
+.main-container> .aboutme-img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 5px solid;
+border-color: #F2F2F2;
+margin-bottom: 30px;
+}
+.main-container> .text-aboutme{
+font-size: 22px;
+color: #F2F2F2;
+text-align: center;
+line-height: 30px;
+margin-top: 40px;
+}
+#aboutme> .main-container > .btn-canvas{
+display: flex;
+height: 45px;
+width: 150px;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+border-radius: 10px;
+background-color: #161F30;
+color: #F2F2F2;
+font-weight: 700;
+}
+body > .main > #myworks{
+width: 100%;
+height: auto;
+background-color:#0D0D0D;
+}
+.main > #myworks > .works-container{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 50px;
+}
+.works-container > .card1{
+width: 30%;
+height: 400px;
+background-color: #B4BEC9;
+border-radius: 10px;
+}
+.works-container > .card2{
+width: 30%;
+height: 400px;
+background-color: #B4BEC9;
+border-radius: 10px;
+}
+#myworks > .title-works{
+display: flex;
+justify-content: center;
+font-size: 37px;
+color: #F2F2F2;
+position: relative;
+top: 50px;
+margin-bottom: 150px;
+}
+.works-container > .card1 > .logoemp1 {
+width: 30%;
+height: 30%;
+position: relative;
+left: 190px;
+}
+.works-container > .card1 > .titlecard1{
+text-align: center;
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.works-container > .card1 > .textcard1{
+text-align: center;
+font-size: 22px;
+margin: 20px;
+}
+.works-container > .card1 > .btncard1{
+width: 100px;
+height: 40px;
+border-radius: 10px;
+background-color: #A2A6F2;
+cursor: pointer;
+position: relative;
+left: 220px;
+top: 15px;
+}
+.works-container > .card2 > .logoemp2 {
+width: 30%;
+height: 30%;
+position: relative;
+left: 190px;
+}
+.works-container > .card2 > .titlecard2{
+text-align: center;
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.works-container > .card2 > .textcard2{
+text-align: center;
+font-size: 22px;
+margin: 20px;
+}
+.works-container > .card2 > .btncard2{
+width: 100px;
+height: 40px;
+border-radius: 10px;
+background-color: #A2A6F2;
+cursor: pointer;
+position: relative;
+left: 200px;
+top: 10px;
+}
+body > .main > #contactme{
+width: 100%;
+height: auto;
+background-color:#3B1473;
+}
+#contactme > .contactme-title{
+display: flex;
+justify-content: center;
+font-size: 37px;
+color: #F2F2F2;
+position: relative;
+top: 50px;
+margin-bottom: 150px;
+}
+.main > #contactme > .container-contact{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 50px;
+color: #F2F2F2;
+font-size: 25px;
+}
+.main > #contactme > .container-contact > .inputs{
+
+height: 60px;
+width: 30%;
+border-radius:5px;
+margin-bottom: 60px;
+margin-top: 10px;
+
+}
+.main > #contactme > .container-contact > .input-coment{
+height: 200px;
+width: 30%;
+margin-bottom: 60px;
+margin-top: 10px;
+}
+
+.main > #contactme > .container-contact > .btn-send{
+width: 150px;
+height: 45px;
+background-color: #A2A6F2;
+}
+body > .footer{
+height: 100px;
+width: 100%;
+background-color: #154666;
+}
